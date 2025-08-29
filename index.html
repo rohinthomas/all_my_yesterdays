@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Song Landing Page</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      max-width: 420px;
+      width: 90%;
+      background: #1a1a1a;
+      border-radius: 16px;
+      padding: 25px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+    .cover {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 26px;
+      margin: 10px 0 4px;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+      color: #aaa;
+      margin-bottom: 25px;
+    }
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin: 12px 0;
+      padding: 14px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    .links a img {
+      height: 22px;
+      filter: invert(1);
+    }
+    .spotify { background: #1DB954; color: #fff; }
+    .spotify:hover { background: #18a348; transform: translateY(-2px); }
+    .apple { background: #333; color: #fff; }
+    .apple:hover { background: #555; transform: translateY(-2px); }
+    .youtube { background: #FF0000; color: #fff; }
+    .youtube:hover { background: #cc0000; transform: translateY(-2px); }
+    .footer {
+      margin-top: 25px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="All_my_yesterday's.png" alt="Song Cover" class="cover">
+    <h1>All My Yesterday's</h1>
+    <h2>Rohin Thomas Kurian</h2>
+    <div class="links">
+      <a href="https://open.spotify.com/track/31crfFoXU6lu0QH0qkLNsO?si=33bc5868ee524cec" target="_blank" class="spotify">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/spotify.svg" alt="Spotify">
+        Listen on Spotify
+      </a>
+      <a href="https://music.apple.com/in/album/all-my-yesterdays/1836261837?i=1836261838" target="_blank" class="apple">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/applemusic.svg" alt="Apple Music">
+        Listen on Apple Music
+      </a>
+      <a href="https://music.youtube.com/watch?v=sxaOv12hBEA&si=gWbHUxKq5GSAOWLz" target="_blank" class="youtube">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtubemusic.svg" alt="YouTube Music">
+        Listen on YouTube Music
+      </a>
+    </div>
+    <div class="footer">
+      Available on all major streaming platforms
+    </div>
+  </div>
+</body>
+</html>
